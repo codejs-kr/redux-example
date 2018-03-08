@@ -1,20 +1,10 @@
-import * as types from './ActionTypes';
+// 액션 타입을 정의 한다.
+export const SET_COLOR = "SET_COLOR";
 
-export function increment() {
-  return {
-    type: types.INCREMENT
-  };
-}
-
-export function decrement() {
-  return {
-    type: types.DECREMENT
-  };
-}
-
+// 액션 객체를 만들어주는 액션 생성 함수
 export function setColor(color) {
   return {
-    type: types.SET_COLOR,
+    type: SET_COLOR,
     color: color
   };
 }

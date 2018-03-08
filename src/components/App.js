@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
-import Counter from './Counter';
+import React, { Component, Fragment } from 'react';
+import Parent from './Parent';
 
 class App extends Component {
   render() {
     return(
-      <Counter />
+      <Fragment>
+        <Parent />
+      </Fragment>
     );
   }
 }
