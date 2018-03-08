@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import Child2Container from '../containers/Child2Container';
+import Child2 from './Child2';
 
 class Child1 extends Component {
   render() {
+    const { color, onHandleClick } = this.props;
+
     return (
       <div id="child1">
-        <Child2Container />
+        <Child2 color={color} onHandleClick={onHandleClick} />
       </div>
     );
   }
