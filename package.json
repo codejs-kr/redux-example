@@ -2,6 +2,7 @@
   "name": "redux-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.evernote.com/shard/s147/sh/c4a20e24-2cbf-49d5-a3d5-45dbb75dd7d6/de7d176d23799e60",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
